@@ -1,0 +1,106 @@
+13:49:12.785 [main] INFO  TestCases.TC_01_AccountRegistrationTest - ** starting first log in first test case **
+13:57:36.764 [main] INFO  TestCases.TC_01_AccountRegistrationTest - ** starting first log in first test case **
+13:58:07.656 [main] INFO  TestCases.TC_01_AccountRegistrationTest - ** starting first log in first test case **
+14:05:29.588 [main] INFO  TestCases.TC_01_AccountRegistrationTest - ** starting first log in first test case **
+14:05:29.591 [main] INFO  TestCases.TC_01_AccountRegistrationTest - opening Home page
+14:05:31.166 [main] INFO  TestCases.TC_01_AccountRegistrationTest -  Opening Registration page
+14:05:33.831 [main] INFO  TestCases.TC_01_AccountRegistrationTest -  registration completed!...
+14:06:55.503 [main] INFO  TestCases.TC_01_AccountRegistrationTest - ** starting first log in first test case **
+14:06:55.509 [main] INFO  TestCases.TC_01_AccountRegistrationTest - opening Home page
+14:06:57.287 [main] INFO  TestCases.TC_01_AccountRegistrationTest -  Opening Registration page
+14:06:59.979 [main] INFO  TestCases.TC_01_AccountRegistrationTest -  registration completed!...
+14:32:16.233 [TestNG-tests-1] INFO  TestCases.TC_01_AccountRegistrationTest - ** starting first log in first test case **
+14:32:16.239 [TestNG-tests-1] INFO  TestCases.TC_01_AccountRegistrationTest - opening Home page
+14:32:18.124 [TestNG-tests-1] INFO  TestCases.TC_01_AccountRegistrationTest -  Opening Registration page
+14:32:20.358 [TestNG-tests-1] INFO  TestCases.TC_01_AccountRegistrationTest -  registration completed!...
+14:32:33.914 [TestNG-tests-2] INFO  TestCases.TC_01_AccountRegistrationTest - ** starting first log in first test case **
+14:32:33.914 [TestNG-tests-2] INFO  TestCases.TC_01_AccountRegistrationTest - opening Home page
+14:32:34.865 [TestNG-tests-2] INFO  TestCases.TC_01_AccountRegistrationTest -  Opening Registration page
+14:32:37.433 [TestNG-tests-2] INFO  TestCases.TC_01_AccountRegistrationTest -  registration completed!...
+15:29:34.120 [TestNG-tests-1] INFO  TestCases.TC_01_AccountRegistrationTest - ** starting first log in first test case **
+15:29:34.147 [TestNG-tests-1] INFO  TestCases.TC_01_AccountRegistrationTest - opening Home page
+15:29:37.927 [TestNG-tests-1] INFO  TestCases.TC_01_AccountRegistrationTest -  Opening Registration page
+15:29:39.637 [TestNG-tests-2] INFO  TestCases.TC_01_AccountRegistrationTest - ** starting first log in first test case **
+15:29:39.638 [TestNG-tests-2] INFO  TestCases.TC_01_AccountRegistrationTest - opening Home page
+15:29:41.019 [TestNG-tests-1] INFO  TestCases.TC_01_AccountRegistrationTest -  registration completed!...
+15:29:41.335 [TestNG-tests-2] INFO  TestCases.TC_01_AccountRegistrationTest -  Opening Registration page
+15:29:43.768 [TestNG-tests-2] INFO  TestCases.TC_01_AccountRegistrationTest -  registration completed!...
+15:32:21.203 [TestNG-tests-1] INFO  TestCases.TC_01_AccountRegistrationTest - ** starting first log in first test case **
+15:32:21.210 [TestNG-tests-1] INFO  TestCases.TC_01_AccountRegistrationTest - opening Home page
+15:32:24.066 [TestNG-tests-1] INFO  TestCases.TC_01_AccountRegistrationTest -  Opening Registration page
+15:32:24.263 [TestNG-tests-2] INFO  TestCases.TC_01_AccountRegistrationTest - ** starting first log in first test case **
+15:32:24.263 [TestNG-tests-2] INFO  TestCases.TC_01_AccountRegistrationTest - opening Home page
+15:32:25.342 [TestNG-tests-2] INFO  TestCases.TC_01_AccountRegistrationTest -  Opening Registration page
+16:07:10.577 [main] INFO  TestCases.TC_002_LoginTest - Starting TC_002_LoginTest
+16:24:35.463 [main] INFO  TestCases.TC_002_LoginTest - Starting TC_002_LoginTest
+16:25:23.588 [main] INFO  TestCases.TC_002_LoginTest - Starting TC_002_LoginTest
+16:40:04.631 [main] INFO  TestCases.TC_002_LoginTest - Starting TC_002_LoginTest
+16:40:08.911 [main] INFO  TestCases.TC_002_LoginTest -  Finished TC_002_LoginTest
+16:44:29.491 [main] INFO  TestCases.TC_002_LoginTest - Starting TC_002_LoginTest
+16:44:33.304 [main] INFO  TestCases.TC_002_LoginTest -  Finished TC_002_LoginTest
+16:44:45.398 [main] INFO  TestCases.TC_003_LoginDataDrivenTest -  Starting TC_003_LoginDataDrivenTest 
+16:45:32.201 [main] INFO  TestCases.TC_002_LoginTest - Starting TC_002_LoginTest
+16:45:35.960 [main] INFO  TestCases.TC_002_LoginTest -  Finished TC_002_LoginTest
+16:45:45.512 [main] INFO  TestCases.TC_003_LoginDataDrivenTest -  Starting TC_003_LoginDataDrivenTest 
+16:45:58.096 [main] INFO  TestCases.TC_003_LoginDataDrivenTest -  Finished TC_003_LoginDataDrivenTest
+16:45:58.099 [main] INFO  TestCases.TC_003_LoginDataDrivenTest -  Starting TC_003_LoginDataDrivenTest 
+16:46:10.219 [main] INFO  TestCases.TC_003_LoginDataDrivenTest -  Finished TC_003_LoginDataDrivenTest
+16:46:10.223 [main] INFO  TestCases.TC_003_LoginDataDrivenTest -  Starting TC_003_LoginDataDrivenTest 
+16:46:22.118 [main] INFO  TestCases.TC_003_LoginDataDrivenTest -  Finished TC_003_LoginDataDrivenTest
+16:46:22.121 [main] INFO  TestCases.TC_003_LoginDataDrivenTest -  Starting TC_003_LoginDataDrivenTest 
+16:46:34.590 [main] INFO  TestCases.TC_003_LoginDataDrivenTest -  Finished TC_003_LoginDataDrivenTest
+16:46:34.598 [main] INFO  TestCases.TC_003_LoginDataDrivenTest -  Starting TC_003_LoginDataDrivenTest 
+14:00:03.994 [main] INFO  TestCases.TC_002_LoginTest - Starting TC_002_LoginTest
+14:09:10.771 [main] INFO  TestCases.TC_002_LoginTest - Starting TC_002_LoginTest
+14:32:03.120 [main] INFO  TestCases.TC_001_AccountRegistrationTest - ** starting first log in first test case **
+14:32:03.124 [main] INFO  TestCases.TC_001_AccountRegistrationTest - opening Home page
+14:32:04.240 [main] INFO  TestCases.TC_001_AccountRegistrationTest -  Opening Registration page
+14:32:07.136 [main] INFO  TestCases.TC_001_AccountRegistrationTest -  registration completed!...
+14:32:17.129 [main] INFO  TestCases.TC_002_LoginTest - Starting TC_002_LoginTest
+14:35:32.380 [main] INFO  TestCases.TC_001_AccountRegistrationTest - ** starting first log in first test case **
+14:35:32.390 [main] INFO  TestCases.TC_001_AccountRegistrationTest - opening Home page
+14:35:34.887 [main] INFO  TestCases.TC_001_AccountRegistrationTest -  Opening Registration page
+14:35:39.605 [main] INFO  TestCases.TC_001_AccountRegistrationTest -  registration completed!...
+14:35:48.786 [main] INFO  TestCases.TC_002_LoginTest - Starting TC_002_LoginTest
+14:39:43.937 [main] INFO  TestCases.TC_001_AccountRegistrationTest - ** starting first log in first test case **
+14:39:43.943 [main] INFO  TestCases.TC_001_AccountRegistrationTest - opening Home page
+14:39:46.129 [main] INFO  TestCases.TC_001_AccountRegistrationTest -  Opening Registration page
+14:39:49.162 [main] INFO  TestCases.TC_001_AccountRegistrationTest -  registration completed!...
+14:40:00.318 [main] INFO  TestCases.TC_002_LoginTest - Starting TC_002_LoginTest
+15:00:51.171 [main] INFO  TestCases.TC_002_LoginTest - Starting TC_002_LoginTest
+15:00:56.280 [main] INFO  TestCases.TC_002_LoginTest - Starting TC_002_LoginTest
+15:03:06.299 [main] INFO  TestCases.TC_001_AccountRegistrationTest - ** starting first log in first test case **
+15:03:06.302 [main] INFO  TestCases.TC_001_AccountRegistrationTest - opening Home page
+15:03:07.256 [main] INFO  TestCases.TC_001_AccountRegistrationTest -  Opening Registration page
+15:03:09.724 [main] INFO  TestCases.TC_001_AccountRegistrationTest -  registration completed!...
+15:03:16.968 [main] INFO  TestCases.TC_002_LoginTest - Starting TC_002_LoginTest
+15:07:11.738 [main] INFO  TestCases.TC_001_AccountRegistrationTest - ** starting first log in first test case **
+15:07:11.740 [main] INFO  TestCases.TC_001_AccountRegistrationTest - opening Home page
+15:07:13.438 [main] INFO  TestCases.TC_001_AccountRegistrationTest -  Opening Registration page
+15:07:15.750 [main] INFO  TestCases.TC_001_AccountRegistrationTest -  registration completed!...
+15:07:22.517 [main] INFO  TestCases.TC_002_LoginTest - Starting TC_002_LoginTest
+15:07:24.905 [main] INFO  TestCases.TC_002_LoginTest -  Finished TC_002_LoginTest
+15:08:25.804 [main] INFO  TestCases.TC_001_AccountRegistrationTest - ** starting first log in first test case **
+15:08:25.808 [main] INFO  TestCases.TC_001_AccountRegistrationTest - opening Home page
+15:08:29.583 [main] INFO  TestCases.TC_001_AccountRegistrationTest -  Opening Registration page
+15:08:31.517 [main] INFO  TestCases.TC_001_AccountRegistrationTest - ** starting first log in first test case **
+15:08:31.521 [main] INFO  TestCases.TC_001_AccountRegistrationTest - opening Home page
+15:08:32.088 [main] INFO  TestCases.TC_001_AccountRegistrationTest -  registration completed!...
+15:08:32.705 [main] INFO  TestCases.TC_001_AccountRegistrationTest -  Opening Registration page
+15:08:35.148 [main] INFO  TestCases.TC_001_AccountRegistrationTest -  registration completed!...
+15:08:41.221 [main] INFO  TestCases.TC_002_LoginTest - Starting TC_002_LoginTest
+15:08:43.260 [main] INFO  TestCases.TC_002_LoginTest - Starting TC_002_LoginTest
+15:08:43.844 [main] INFO  TestCases.TC_002_LoginTest -  Finished TC_002_LoginTest
+15:08:46.585 [main] INFO  TestCases.TC_002_LoginTest -  Finished TC_002_LoginTest
+15:16:11.288 [main] INFO  TestCases.TC_001_AccountRegistrationTest - ** starting first log in first test case **
+15:16:11.291 [main] INFO  TestCases.TC_001_AccountRegistrationTest - opening Home page
+15:16:13.095 [main] INFO  TestCases.TC_001_AccountRegistrationTest -  Opening Registration page
+15:16:15.509 [main] INFO  TestCases.TC_001_AccountRegistrationTest -  registration completed!...
+15:16:23.326 [main] INFO  TestCases.TC_002_LoginTest - Starting TC_002_LoginTest
+15:16:25.682 [main] INFO  TestCases.TC_002_LoginTest -  Finished TC_002_LoginTest
+15:16:54.634 [main] INFO  TestCases.TC_001_AccountRegistrationTest - ** starting first log in first test case **
+15:16:54.639 [main] INFO  TestCases.TC_001_AccountRegistrationTest - opening Home page
+15:16:55.861 [main] INFO  TestCases.TC_001_AccountRegistrationTest -  Opening Registration page
+15:16:58.882 [main] INFO  TestCases.TC_001_AccountRegistrationTest -  registration completed!...
+15:17:07.530 [main] INFO  TestCases.TC_002_LoginTest - Starting TC_002_LoginTest
+15:17:11.512 [main] INFO  TestCases.TC_002_LoginTest -  Finished TC_002_LoginTest
