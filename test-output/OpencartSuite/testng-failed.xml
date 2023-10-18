@@ -14,6 +14,13 @@
           <include name="close"/>
         </methods>
       </class> <!-- TestCases.TC_002_LoginTest -->
+      <class name="TestCases.TC_001_AccountRegistrationTest">
+        <methods>
+          <include name="Test_Register"/>
+          <include name="SetUp"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- TestCases.TC_001_AccountRegistrationTest -->
     </classes>
   </test> <!-- OpencartTest(failed) -->
 </suite> <!-- Failed suite [OpencartSuite] -->

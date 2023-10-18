@@ -1,4 +1,4 @@
-package TestBase;
+package testBase;
 
 import java.io.File;
 import java.io.IOException;
@@ -26,7 +26,7 @@ public class BaseClass {
 	
 	public WebDriver driver;
 	
-	public Logger log;
+	public Logger logger;
 	
 	public ResourceBundle rb;
 	
@@ -34,7 +34,7 @@ public class BaseClass {
 	@Parameters("browser")
 	public void SetUp(String br)
 	{
-		log= LogManager.getLogger(this.getClass());
+		logger= LogManager.getLogger(this.getClass());
 		
 		rb= ResourceBundle.getBundle("Config");
 		
@@ -94,6 +94,6 @@ public class BaseClass {
 	public void close()
 	{
 		driver.quit();
-	}
+	} 
 
 }

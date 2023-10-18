@@ -1,43 +1,43 @@
-package TestCases;
+package testCases;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import PageObjects.HomePage;
-import PageObjects.RegistrationPage;
-import TestBase.BaseClass;
+import pageObjects.HomePage;
+import pageObjects.AccountRegistrationPage;
+import testBase.BaseClass;
 
 public class TC_001_AccountRegistrationTest extends BaseClass
 {
 	@Test(groups= {"Regression","Master"})
 	public void Test_Register() throws InterruptedException
 	{
-		log.debug("Debugging register page");
-		log.info("** starting first log in first test case **");
+		logger.debug("Debugging register page");
+		logger.info("** starting first log in first test case **");
 		try
 		{
-		log.info("opening Home page");
+			logger.info("opening Home page");
 		HomePage hp= new HomePage(driver);
-		hp.ClickRegister();
-		log.info(" Opening Registration page");
-		RegistrationPage regp= new RegistrationPage(driver);
+		hp.clickRegister();
+		logger.info(" Opening Registration page");
+		AccountRegistrationPage regp= new AccountRegistrationPage(driver);
 		regp.FemaleGender();
-		regp.FirstName(RandString().toUpperCase());
-		regp.LastName(RandString().toUpperCase());
+		regp.setFirstName(RandString().toUpperCase());
+		regp.setLastName(RandString().toUpperCase());
 		regp.DateOfBirth("21", "August", "2000");
-		regp.Email(RandString()+"@gamil.com");
+		regp.setEmail(RandString()+"@gamil.com");
 		String Psw=RandAlphaNum();
-		regp.Password(Psw);
-		regp.ConfirmPassword(Psw);
-		regp.Register();
+		regp.setPassword(Psw);
+		regp.confirmPassword(Psw);
+		regp.clickRegister();
 		String confmsg=regp.getConfirmationMsg();
 		Assert.assertEquals(confmsg, "Your registration completed");
 		}
 		catch(Exception e)
 		{
-			log.error("Test Failed");
+			logger.error("Test Failed");
 			Assert.fail();
 		}
-		log.info(" registration completed!...");
+		logger.info(" registration completed!...");
 	}
 }

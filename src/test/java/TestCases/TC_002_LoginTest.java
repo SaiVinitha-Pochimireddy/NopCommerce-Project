@@ -1,25 +1,24 @@
-package TestCases;
+package testCases;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import PageObjects.HomePage;
-import PageObjects.LoginPage;
-import PageObjects.MainPage;
-import TestBase.BaseClass;
+import pageObjects.HomePage;
+import pageObjects.LoginPage;
+import testBase.BaseClass;
 
 public class TC_002_LoginTest extends BaseClass
 {
 	@Test(groups= {"Sanity","Master"})
 	public void test_Login()
 	{
-		log.info("Starting TC_002_LoginTest");
+		logger.info("Starting TC_002_LoginTest");
 		
 		try
 		{				
 			HomePage hp=new HomePage(driver);
 			
-			hp.ClickLogin();
+			hp.clickLogin();
 			
 			LoginPage lp=new LoginPage(driver);
 			
@@ -29,9 +28,7 @@ public class TC_002_LoginTest extends BaseClass
 			
 			lp.clickLogin();
 			
-			MainPage macc=new MainPage(driver);
-			
-			boolean targetpage=macc.isMyAccountPageExists();
+			boolean targetpage=hp.isMyAccountExists();
 						
 			Assert.assertEquals(targetpage, true);
 			
@@ -40,7 +37,7 @@ public class TC_002_LoginTest extends BaseClass
 		{
 			Assert.fail();
 		}
-		log.info(" Finished TC_002_LoginTest");
+		logger.info(" Finished TC_002_LoginTest");
 		
 	}
 	

@@ -1,13 +1,13 @@
-package PageObjects;
+package pageObjects;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
 
-public class RegistrationPage extends BasePage{
+public class AccountRegistrationPage extends BasePage{
 
-	public RegistrationPage(WebDriver driver) {
+	public AccountRegistrationPage(WebDriver driver) {
 		super(driver);
 	}
 	
@@ -55,12 +55,12 @@ public class RegistrationPage extends BasePage{
 		FGender.click();
 	}
 	
-	public void FirstName(String FName)
+	public void setFirstName(String FName)
 	{
 		FirstName.sendKeys(FName);
 	}
 	
-	public void LastName(String LName)
+	public void setLastName(String LName)
 	{
 		LastName.sendKeys(LName);
 	}
@@ -72,22 +72,22 @@ public class RegistrationPage extends BasePage{
 		YearOfBirth.selectByVisibleText(Year);
 	}
 	
-	public void Email(String mail)
+	public void setEmail(String mail)
 	{
 		Email.sendKeys(mail);
 	}
 	
-	public void Password(String psw)
+	public void setPassword(String psw)
 	{
 		Password.sendKeys(psw);
 	}
 	
-	public void ConfirmPassword(String cpsw)
+	public void confirmPassword(String cpsw)
 	{
 		ConfirmPassword.sendKeys(cpsw);
 	}
 	
-	public void Register()
+	public void clickRegister()
 	{
 		RegisterBtn.click();
 	}

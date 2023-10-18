@@ -1,19 +1,19 @@
-package PageObjects;
+package pageObjects;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class MainPage extends BasePage {
+public class MyAccountPage extends BasePage {
 
-	public MainPage(WebDriver driver) {
+	public MyAccountPage(WebDriver driver) {
 		super(driver);
 	}
 
-	@FindBy(xpath = "//a[@class='ico-account']") // MyAccount heading in Main Page
+	@FindBy(xpath = "//h1[normalize-space()='My account - Customer info']") // MyAccount Page heading
 	WebElement msgHeading;
 	
-	@FindBy(xpath = "//a[normalize-space()='Log out']")
+	@FindBy(xpath = "//a[@class='ico-logout']")
 	WebElement lnkLogout;
 	
 
@@ -32,4 +32,3 @@ public class MainPage extends BasePage {
 	}
 	
 }
-
