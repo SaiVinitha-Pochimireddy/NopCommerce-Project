@@ -11,16 +11,16 @@ public class HomePage extends BasePage {
 	}
 	
 	//locators
-	@FindBy(xpath ="//a[@class='ico-register']") 
+	@FindBy(xpath ="//a[normalize-space()='Register']") 
 	WebElement RegisterLink;
 	
-	@FindBy(xpath ="//a[@class='ico-login']") 
+	@FindBy(xpath ="//a[normalize-space()='Log in']") 
 	WebElement LoginLink;
 	
 	@FindBy(xpath = "//input[@id='small-searchterms']")
 	WebElement txtSearchbox;
 	
-	@FindBy(xpath="//button[@type='submit']") //For Search Product Test
+	@FindBy(xpath="//button[normalize-space()='Search']") //For Search Product Test
 	WebElement btnSearch;
 	
 	@FindBy(xpath = "//a[@class='ico-logout']")

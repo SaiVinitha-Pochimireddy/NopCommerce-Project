@@ -19,14 +19,22 @@ public class TC_002_LoginTest extends BaseClass
 			HomePage hp=new HomePage(driver);
 			
 			hp.clickLogin();
+			Thread.sleep(1000);
 			
 			LoginPage lp=new LoginPage(driver);
 			
 			lp.setEmail(rb.getString("email")); // valid email, get it from properties file
+			Thread.sleep(1000);
+			boolean Emailerror=lp.isEmailErrorExists();
+			Assert.assertEquals(Emailerror,false);
 			
 			lp.setPassword(rb.getString("password")); // valid password, get it from properties file
+			Thread.sleep(1000);
 			
 			lp.clickLogin();
+			Thread.sleep(1000);
+			boolean Loginerror=lp.isLoginErrorExists();
+			Assert.assertEquals(Loginerror,false);
 			
 			boolean targetpage=hp.isMyAccountExists();
 						

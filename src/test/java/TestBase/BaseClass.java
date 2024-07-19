@@ -31,14 +31,17 @@ public class BaseClass {
 	public ResourceBundle rb;
 	
 	@BeforeClass(groups = { "Master", "Sanity", "Regression" })
-	@Parameters("browser")
-	public void SetUp(String br)
+	//@Parameters("browser")
+	public void SetUp()
 	{
 		logger= LogManager.getLogger(this.getClass());
 		
 		rb= ResourceBundle.getBundle("Config");
 		
-		if(br.equals("chrome"))
+		WebDriverManager.chromedriver().setup();
+		driver= new ChromeDriver();
+		
+		/*if(br.equals("chrome"))
 		{
 			WebDriverManager.chromedriver().setup();
 			driver= new ChromeDriver();
@@ -47,7 +50,7 @@ public class BaseClass {
 		{
 			WebDriverManager.edgedriver().setup();
 			driver= new EdgeDriver();
-		}
+		}*/
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("https://demo.nopcommerce.com/");

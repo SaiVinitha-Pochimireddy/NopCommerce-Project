@@ -15,6 +15,8 @@ public class AccountRegistrationPage extends BasePage{
 	@FindBy(xpath="//input[@id='gender-female']")
 	WebElement FGender;
 	
+	@FindBy(xpath="//input[@id='gender-male'])") WebElement Mgender;
+	
 	@FindBy(xpath="//input[@id='FirstName']")
 	WebElement FirstName;
 	
@@ -32,6 +34,8 @@ public class AccountRegistrationPage extends BasePage{
 	@FindBy(xpath="//select[@name='DateOfBirthYear']")
 	WebElement YearDrp;
 	Select YearOfBirth = new Select(YearDrp);
+	
+	@FindBy(xpath="//input[@id='Company']") WebElement CompanyName;
 	
 	@FindBy(xpath="//input[@id='Email']")
 	WebElement Email;
@@ -55,6 +59,10 @@ public class AccountRegistrationPage extends BasePage{
 		FGender.click();
 	}
 	
+	public void MaleGender()
+	{
+		Mgender.click();
+	}
 	public void setFirstName(String FName)
 	{
 		FirstName.sendKeys(FName);
@@ -70,6 +78,11 @@ public class AccountRegistrationPage extends BasePage{
 		DayOfBirth.selectByVisibleText(Day);
 		MonthOfBirth.selectByVisibleText(Month);
 		YearOfBirth.selectByVisibleText(Year);
+	}
+	
+	public void setCompanyName(String cname)
+	{
+		CompanyName.sendKeys(cname);
 	}
 	
 	public void setEmail(String mail)

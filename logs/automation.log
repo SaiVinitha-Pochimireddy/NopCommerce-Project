@@ -159,3 +159,95 @@
 13:28:39.882 [main] INFO  testCases.TC_004_SearchProductTest -  Finished TC_004_SearchProductTest 
 13:28:48.637 [main] INFO  testCases.TC_005_AddToCartPageTest -  Starting TC_005_AddToCartPageTest 
 13:28:51.841 [main] INFO  testCases.TC_005_AddToCartPageTest -  Finished TC_004_SearchProductTest 
+14:15:54.670 [main] INFO  testCases.TC_001_AccountRegistrationTest - ** starting first log in first test case **
+14:15:54.680 [main] INFO  testCases.TC_001_AccountRegistrationTest - opening Home page
+14:15:55.908 [main] INFO  testCases.TC_001_AccountRegistrationTest -  Opening Registration page
+14:15:58.850 [main] INFO  testCases.TC_001_AccountRegistrationTest -  registration completed!...
+14:16:06.996 [main] INFO  testCases.TC_002_LoginTest - Starting TC_002_LoginTest
+14:16:09.667 [main] INFO  testCases.TC_002_LoginTest -  Finished TC_002_LoginTest
+14:16:16.423 [main] INFO  testCases.TC_004_SearchProductTest -  Starting TC_004_SearchProductTest 
+14:16:18.771 [main] INFO  testCases.TC_004_SearchProductTest -  Finished TC_004_SearchProductTest 
+14:16:25.364 [main] INFO  testCases.TC_005_AddToCartPageTest -  Starting TC_005_AddToCartPageTest 
+14:16:29.002 [main] INFO  testCases.TC_005_AddToCartPageTest -  Finished TC_004_SearchProductTest 
+18:05:54.856 [main] INFO  testCases.TC_001_AccountRegistrationTest - ** starting first log in first test case **
+18:05:54.866 [main] INFO  testCases.TC_001_AccountRegistrationTest - opening Home page
+18:05:57.938 [main] INFO  testCases.TC_001_AccountRegistrationTest -  Opening Registration page
+18:06:02.790 [main] INFO  testCases.TC_001_AccountRegistrationTest -  registration completed!...
+18:06:19.354 [main] INFO  testCases.TC_002_LoginTest - Starting TC_002_LoginTest
+18:06:27.300 [main] INFO  testCases.TC_002_LoginTest -  Finished TC_002_LoginTest
+18:06:39.336 [main] INFO  testCases.TC_004_SearchProductTest -  Starting TC_004_SearchProductTest 
+18:06:46.425 [main] INFO  testCases.TC_004_SearchProductTest -  Finished TC_004_SearchProductTest 
+18:06:55.516 [main] INFO  testCases.TC_005_AddToCartPageTest -  Starting TC_005_AddToCartPageTest 
+18:07:24.280 [main] INFO  testCases.TC_005_AddToCartPageTest -  Finished TC_004_SearchProductTest 
+18:14:23.370 [main] INFO  testCases.TC_003_LoginDataDrivenTest -  Starting TC_003_LoginDataDrivenTest 
+18:14:35.409 [main] INFO  testCases.TC_003_LoginDataDrivenTest -  Starting TC_003_LoginDataDrivenTest 
+18:14:46.511 [main] INFO  testCases.TC_003_LoginDataDrivenTest -  Starting TC_003_LoginDataDrivenTest 
+18:14:57.600 [main] INFO  testCases.TC_003_LoginDataDrivenTest -  Starting TC_003_LoginDataDrivenTest 
+18:15:08.705 [main] INFO  testCases.TC_003_LoginDataDrivenTest -  Starting TC_003_LoginDataDrivenTest 
+19:08:41.796 [main] INFO  testCases.TC_001_AccountRegistrationTest - ** starting first log in first test case **
+19:08:41.846 [main] INFO  testCases.TC_001_AccountRegistrationTest - opening Home page
+19:08:42.793 [main] INFO  testCases.TC_001_AccountRegistrationTest -  Opening Registration page
+19:08:45.114 [main] INFO  testCases.TC_001_AccountRegistrationTest -  registration completed!...
+19:08:51.947 [main] INFO  testCases.TC_002_LoginTest - Starting TC_002_LoginTest
+19:08:53.911 [main] INFO  testCases.TC_002_LoginTest -  Finished TC_002_LoginTest
+19:09:00.323 [main] INFO  testCases.TC_004_SearchProductTest -  Starting TC_004_SearchProductTest 
+19:09:02.324 [main] INFO  testCases.TC_004_SearchProductTest -  Finished TC_004_SearchProductTest 
+19:09:08.550 [main] INFO  testCases.TC_005_AddToCartPageTest -  Starting TC_005_AddToCartPageTest 
+19:09:10.824 [main] INFO  testCases.TC_005_AddToCartPageTest -  Finished TC_004_SearchProductTest 
+17:38:02.609 [main] INFO  testCases.TC_001_AccountRegistrationTest - ** starting first log in first test case **
+17:38:02.620 [main] INFO  testCases.TC_001_AccountRegistrationTest - opening Home page
+17:38:05.016 [main] INFO  testCases.TC_001_AccountRegistrationTest -  Opening Registration page
+17:38:17.024 [main] INFO  testCases.TC_001_AccountRegistrationTest -  registration completed!...
+17:41:53.138 [main] INFO  testCases.TC_001_AccountRegistrationTest - ** starting first log in first test case **
+17:41:53.142 [main] INFO  testCases.TC_001_AccountRegistrationTest - opening Home page
+17:41:54.830 [main] INFO  testCases.TC_001_AccountRegistrationTest -  Opening Registration page
+17:42:06.879 [main] INFO  testCases.TC_001_AccountRegistrationTest -  registration completed!...
+17:47:49.677 [main] INFO  testCases.TC_001_AccountRegistrationTest - ** starting first log in first test case **
+17:47:49.680 [main] INFO  testCases.TC_001_AccountRegistrationTest - opening Home page
+17:47:51.329 [main] INFO  testCases.TC_001_AccountRegistrationTest -  Opening Registration page
+17:48:03.323 [main] INFO  testCases.TC_001_AccountRegistrationTest -  registration completed!...
+18:10:36.613 [main] INFO  testCases.TC_002_LoginTest - Starting TC_002_LoginTest
+18:10:42.370 [main] INFO  testCases.TC_002_LoginTest -  Finished TC_002_LoginTest
+18:11:53.652 [main] INFO  testCases.TC_002_LoginTest - Starting TC_002_LoginTest
+18:12:15.858 [main] INFO  testCases.TC_002_LoginTest -  Finished TC_002_LoginTest
+18:17:05.529 [main] INFO  testCases.TC_002_LoginTest - Starting TC_002_LoginTest
+18:17:12.497 [main] INFO  testCases.TC_002_LoginTest -  Finished TC_002_LoginTest
+18:20:49.133 [main] INFO  testCases.TC_002_LoginTest - Starting TC_002_LoginTest
+18:20:54.356 [main] INFO  testCases.TC_002_LoginTest -  Finished TC_002_LoginTest
+18:44:49.434 [main] INFO  testCases.TC_002_LoginTest - Starting TC_002_LoginTest
+18:47:07.757 [main] INFO  testCases.TC_002_LoginTest - Starting TC_002_LoginTest
+18:49:36.422 [main] INFO  testCases.TC_002_LoginTest - Starting TC_002_LoginTest
+18:50:02.807 [main] INFO  testCases.TC_002_LoginTest -  Finished TC_002_LoginTest
+18:51:06.067 [main] INFO  testCases.TC_002_LoginTest - Starting TC_002_LoginTest
+18:51:32.040 [main] INFO  testCases.TC_002_LoginTest -  Finished TC_002_LoginTest
+18:52:52.520 [main] INFO  testCases.TC_002_LoginTest - Starting TC_002_LoginTest
+18:53:17.896 [main] INFO  testCases.TC_002_LoginTest -  Finished TC_002_LoginTest
+17:47:07.170 [main] INFO  testCases.TC_002_LoginTest - Starting TC_002_LoginTest
+17:47:33.191 [main] INFO  testCases.TC_002_LoginTest -  Finished TC_002_LoginTest
+17:52:13.910 [main] INFO  testCases.TC_002_LoginTest - Starting TC_002_LoginTest
+17:52:39.381 [main] INFO  testCases.TC_002_LoginTest -  Finished TC_002_LoginTest
+18:32:29.603 [main] INFO  testCases.TC_002_LoginTest - Starting TC_002_LoginTest
+18:32:55.041 [main] INFO  testCases.TC_002_LoginTest -  Finished TC_002_LoginTest
+18:33:20.049 [main] INFO  testCases.TC_002_LoginTest - Starting TC_002_LoginTest
+18:33:45.833 [main] INFO  testCases.TC_002_LoginTest -  Finished TC_002_LoginTest
+18:34:43.180 [main] INFO  testCases.TC_002_LoginTest - Starting TC_002_LoginTest
+19:31:11.034 [main] INFO  testCases.TC_002_LoginTest - Starting TC_002_LoginTest
+19:31:36.473 [main] INFO  testCases.TC_002_LoginTest -  Finished TC_002_LoginTest
+19:34:40.077 [main] INFO  testCases.TC_002_LoginTest - Starting TC_002_LoginTest
+19:35:05.632 [main] INFO  testCases.TC_002_LoginTest -  Finished TC_002_LoginTest
+19:35:44.701 [main] INFO  testCases.TC_002_LoginTest - Starting TC_002_LoginTest
+19:38:06.119 [main] INFO  testCases.TC_002_LoginTest - Starting TC_002_LoginTest
+19:39:34.420 [main] INFO  testCases.TC_002_LoginTest - Starting TC_002_LoginTest
+19:45:29.570 [main] INFO  testCases.TC_002_LoginTest - Starting TC_002_LoginTest
+19:47:58.259 [main] INFO  testCases.TC_002_LoginTest - Starting TC_002_LoginTest
+19:48:26.198 [main] INFO  testCases.TC_002_LoginTest -  Finished TC_002_LoginTest
+19:49:17.695 [main] INFO  testCases.TC_002_LoginTest - Starting TC_002_LoginTest
+19:49:43.069 [main] INFO  testCases.TC_002_LoginTest -  Finished TC_002_LoginTest
+19:51:02.985 [main] INFO  testCases.TC_002_LoginTest - Starting TC_002_LoginTest
+19:51:46.544 [main] INFO  testCases.TC_002_LoginTest - Starting TC_002_LoginTest
+19:54:41.932 [main] INFO  testCases.TC_002_LoginTest - Starting TC_002_LoginTest
+19:55:08.851 [main] INFO  testCases.TC_002_LoginTest -  Finished TC_002_LoginTest
+19:56:52.710 [main] INFO  testCases.TC_002_LoginTest - Starting TC_002_LoginTest
+19:57:17.983 [main] INFO  testCases.TC_002_LoginTest -  Finished TC_002_LoginTest
+19:58:50.814 [main] INFO  testCases.TC_002_LoginTest - Starting TC_002_LoginTest
+19:59:17.732 [main] INFO  testCases.TC_002_LoginTest -  Finished TC_002_LoginTest
