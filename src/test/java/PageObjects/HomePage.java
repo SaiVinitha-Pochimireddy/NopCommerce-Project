@@ -55,6 +55,16 @@ public class HomePage extends BasePage {
 
 	}
 	
+	public boolean isLogindisplayed()
+	{
+		try {
+		return(LoginLink.isDisplayed());
+		}catch(Exception e)
+		{
+			return false;
+		}
+	}
+	
 	public boolean isMyAccountExists()   // MyAccount Page heading display status
 	{
 		try {

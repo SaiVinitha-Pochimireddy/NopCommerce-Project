@@ -23,6 +23,9 @@ public class LoginPage extends BasePage {
 	
 	@FindBy(xpath="//div[@class='message-error validation-summary-errors']")
 	WebElement errorLogin; 
+	
+	@FindBy(xpath="//a[normalize-space()='Forgot password?']")
+	WebElement forgotpassword;
 
 
 	public void setEmail(String email) {
@@ -59,6 +62,11 @@ public class LoginPage extends BasePage {
 		{
 			return false;
 		}
+	}
+	
+	public void ClickForgotPassword()
+	{
+		forgotpassword.click();
 	}
 
 }

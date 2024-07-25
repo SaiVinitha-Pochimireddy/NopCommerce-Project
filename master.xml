@@ -19,6 +19,7 @@
 				<!-- <class name="testCases.TC_001_AccountRegistrationTest"/> -->
 			
 		<class name="testCases.TC_002_LoginTest"/> 
+		<class name="testCases.TC_007_LogoutTest"/>
 			
 				<!-- <class name="testCases.TC_004_SearchProductTest"/>
 			

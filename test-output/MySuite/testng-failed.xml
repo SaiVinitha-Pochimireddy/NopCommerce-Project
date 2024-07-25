@@ -7,6 +7,13 @@
   <test thread-count="5" name="MyTest(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
+      <class name="testCases.TC_007_LogoutTest">
+        <methods>
+          <include name="test_Logout"/>
+          <include name="close"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- testCases.TC_007_LogoutTest -->
       <class name="testCases.TC_002_LoginTest">
         <methods>
           <include name="close"/>
